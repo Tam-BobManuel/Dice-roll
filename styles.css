@@ -1,0 +1,84 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+.btn{
+  background-color: darkred;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border: 2px solid white;
+  transition: 0.5s;
+}
+.btn:hover{
+  cursor: pointer;
+  padding: 8px;
+}
+
+body {
+  background-color: #393E46;
+}
+
+h3 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.footer-socials{
+  text-align: center;
+}
+.footer-socials > button{
+  padding: 10px;
+  border-radius: 5px;
+  transition: 1s;
+}
+.footer-socials > button:hover{
+  padding: 5px;
+}
+.footer-socials-FB{
+  background-color: #1877F2;
+}
+.footer-socials-Twitter{
+  background-color: #55acee;
+}
+.footer-socials-YT{
+  background-color: #FF0000;
+}
+.footer-socials-Insta{
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
